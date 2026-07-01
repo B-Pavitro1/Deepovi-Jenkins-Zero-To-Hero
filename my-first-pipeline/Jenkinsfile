@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image 'openjdk:21-jre-headless' }
+    docker { image 'openjdk:21-amd64' }
   }
   stages {
     stage('Test') {
