@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image 'openjdk:21-jre-headless' }
+    docker { image 'eclipse-temurin:21-jre-alpine' }
   }
   stages {
     stage('Test') {
